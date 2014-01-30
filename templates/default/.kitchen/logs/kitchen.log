@@ -1,0 +1,28 @@
+I, [2014-01-30T22:19:55.715474 #70066]  INFO -- Kitchen: -----> Starting Kitchen (v1.1.1)
+E, [2014-01-30T22:19:55.715817 #70066] ERROR -- Kitchen: ------Exception-------
+E, [2014-01-30T22:19:55.715880 #70066] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-01-30T22:19:55.715908 #70066] ERROR -- Kitchen: Message: Kitchen YAML file /Users/jacopen/Project/chef-sensu-builder/templates/default/.kitchen.yml does not exist.
+E, [2014-01-30T22:19:55.715952 #70066] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-01-30T22:19:55.715985 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/loader/yaml.rb:59:in `read'
+E, [2014-01-30T22:19:55.716017 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:78:in `data'
+E, [2014-01-30T22:19:55.716065 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:66:in `suites'
+E, [2014-01-30T22:19:55.716088 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-01-30T22:19:55.716116 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-01-30T22:19:55.716132 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-01-30T22:19:55.716149 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:342:in `get_filtered_instances'
+E, [2014-01-30T22:19:55.716165 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:327:in `parse_subcommand'
+E, [2014-01-30T22:19:55.716182 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:307:in `block in exec_action'
+E, [2014-01-30T22:19:55.716198 #70066] ERROR -- Kitchen: /Users/jacopen/.rbenv/versions/1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-01-30T22:19:55.716214 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:305:in `exec_action'
+E, [2014-01-30T22:19:55.716230 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:108:in `block (2 levels) in <class:CLI>'
+E, [2014-01-30T22:19:55.716246 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+E, [2014-01-30T22:19:55.716262 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+E, [2014-01-30T22:19:55.716278 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/cli.rb:288:in `invoke_task'
+E, [2014-01-30T22:19:55.716294 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+E, [2014-01-30T22:19:55.716310 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+E, [2014-01-30T22:19:55.716327 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-01-30T22:19:55.716344 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-01-30T22:19:55.716360 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/gems/test-kitchen-1.1.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-01-30T22:19:55.716386 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/bin/kitchen:23:in `load'
+E, [2014-01-30T22:19:55.716405 #70066] ERROR -- Kitchen: /Users/jacopen/Project/chef-sensu-builder/vendor/bundle/ruby/1.9.1/bin/kitchen:23:in `<main>'
+E, [2014-01-30T22:19:55.716422 #70066] ERROR -- Kitchen: ----------------------
